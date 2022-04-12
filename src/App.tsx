@@ -9,7 +9,7 @@ import TypewriterComponent from "typewriter-effect";
 function App() {
   return (
     <div
-      className="flex justify-center items-center h-screen w-screen"
+      className="flex justify-center items-center overflow-auto relative"
       style={{
         background: `url("https://i.ytimg.com/vi/EVDg3jVDHec/maxresdefault.jpg")`,
         display: "flex",
@@ -17,11 +17,14 @@ function App() {
         alignItems: "center",
         justifyContent: "center",
         color: "white",
+        height: "100vh",
+        width: "100vw",
+        backgroundAttachment: "fixed",
       }}
     >
-      <div className="flex-row items-center justify-center text-center">
+      <div className="sticky flex-row items-center justify-center text-center pt-12">
         <div
-          className="w-full cursor-pointer flex align-middle justify-center pt-24 -mt-24 pb-4 mx-auto"
+          className="w-full cursor-pointer flex align-middle justify-center pt-4 pb-4 mx-auto"
           onClick={() => window.open("#")}
         >
           <img
@@ -32,7 +35,7 @@ function App() {
         </div>
       </div>
       <div
-        className="border-white border-t-2 border-b-2 w-64 pt-16 md:pt-8 pb-16 md:pb-8"
+        className="border-white md:border-t-2 md:border-b-2 w-64 pt-2 md:pt-16 md:pb-16"
         style={{ width: 300 }}
       >
         <div
@@ -55,10 +58,10 @@ function App() {
         </div>
       </div>
       <nav style={{ width: "50vw" }}>
-        <div className="flex items-center sm:flex-col flex-row rounded-md h-18 pt-12">
-          <div className="sm:w-72 w-full border-2 rounded-md">
+        <div className="sm:flex sm:items-center sm:flex-col rounded-md h-18 pt-2 sm:pt-12 sm:pb-6">
+          <div className="grid grid-cols-2 sm:grid-cols-none sm:flex sm:flex-row text-sm sm:text-base w-full border-2 rounded-md">
             <div
-              className="flex flex-row h-12 justify-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-b-2"
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 hover:text-gray-900"
               onClick={() => {
                 window.open(
                   "https://www.youtube.com/channel/UCRAHtBkbXHdIY669xju1Ruw",
@@ -69,7 +72,7 @@ function App() {
               youtube
             </div>
             <div
-              className="flex flex-row h-12 justify-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-b-2"
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-l-2 hover:text-gray-900"
               onClick={() => {
                 window.open(
                   "https://open.spotify.com/artist/4mPkv3XVHp9mMeSXp5Ix3D?si=8c580cb1f5fb4267",
@@ -80,7 +83,7 @@ function App() {
               spotify
             </div>
             <div
-              className="flex flex-row h-12 justify-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-b-2"
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 sm:border-l-2 hover:text-gray-900"
               onClick={() => {
                 window.open("https://soundcloud.com/jonahzzz", "_blank");
               }}
@@ -88,7 +91,7 @@ function App() {
               soundcloud
             </div>
             <div
-              className="flex flex-row h-12 justify-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-b-2"
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-l-2 hover:text-gray-900"
               onClick={() => {
                 window.open("https://www.instagram.com/jonahzd/", "_blank");
               }}
@@ -96,7 +99,7 @@ function App() {
               apple music
             </div>
             <div
-              className="flex flex-row h-12 justify-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200"
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 sm:border-l-2 hover:text-gray-900"
               onClick={() => {
                 window.open(
                   "https://music.apple.com/ca/artist/jonah-zed/807598675",
@@ -105,6 +108,14 @@ function App() {
               }}
             >
               instagram
+            </div>
+            <div
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-l-2 hover:text-gray-900"
+              onClick={() => {
+                window.open("mailto:team@jonahzed.com", "_blank");
+              }}
+            >
+              contact
             </div>
           </div>
         </div>
