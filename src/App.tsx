@@ -25,7 +25,7 @@ function App() {
       <div className="sticky flex-row items-center justify-center text-center pt-12">
         <div
           className="w-full cursor-pointer flex align-middle justify-center pt-4 pb-4 mx-auto"
-          onClick={() => window.open("#")}
+          onClick={() => window.open("/gallery", "_self")}
         >
           <img
             className="w-16 h-16 outline outline-1 outline-white rounded-full"
