@@ -41,7 +41,7 @@ function App() {
         <div
           className="flex flex-row justify-center items-center cursor-pointer hover:animate-pulse"
           onClick={() => {
-            window.open("https://ffm.to/nightfever");
+            window.open("https://ffm.to/lowlife-inlove");
           }}
         >
           <img src={nightfever} alt="nightfever" />
@@ -117,6 +117,20 @@ function App() {
             >
               contact
             </div>
+            <div
+              className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 sm:border-l-2 hover:text-gray-900"
+              onClick={() => {
+                window.open("/gallery", "_self");
+              }}
+            >
+              gallery
+            </div>
+            {/* <div
+              className="hidden sm:flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-l-2 hover:text-gray-900"
+              onClick={() => {}}
+            >
+              
+            </div> */}
           </div>
         </div>
       </nav>
