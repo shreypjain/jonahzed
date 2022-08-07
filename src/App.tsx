@@ -44,13 +44,18 @@ function App() {
             window.open("https://ffm.to/lowlife-inlove");
           }}
         >
-          <img src={nightfever} alt="nightfever" />
+          <img
+            src={
+              "https://t2.genius.com/unsafe/576x576/https%3A%2F%2Fimages.genius.com%2Fba7338dad0033136e6d6f779f97d31a1.716x716x1.jpg"
+            }
+            alt="low-life-in-love"
+          />
         </div>
         <div className="text-center">
           <TypewriterComponent
             onInit={(typewriter) => {
               typewriter
-                .typeString("stream night fever today")
+                .typeString("stream low life in love today")
                 .pauseFor(2500)
                 .start();
             }}
