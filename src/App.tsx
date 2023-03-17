@@ -11,12 +11,12 @@ function App() {
     <div
       className="flex justify-center items-center overflow-auto relative"
       style={{
-        background: `url("https://i.ytimg.com/vi/EVDg3jVDHec/maxresdefault.jpg")`,
+        background: "#FFFFFF",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        color: "white",
+        color: "black",
         height: "50vh",
         width: "100vw",
         backgroundAttachment: "fixed",
@@ -33,6 +33,7 @@ function App() {
             alt="profile pic"
           />
         </div>
+        <h2 style={{fontSize: "36px", fontWeight: "bold"}}>Jonah Zed</h2>
       </div>
       {/*}<div
         className="border-white md:border-t-2 md:border-b-2 w-64 pt-2 md:pt-16 md:pb-16"
