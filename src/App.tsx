@@ -17,7 +17,7 @@ function App() {
         alignItems: "center",
         justifyContent: "center",
         color: "white",
-        height: "100vh",
+        height: "50vh",
         width: "100vw",
         backgroundAttachment: "fixed",
       }}
@@ -34,7 +34,7 @@ function App() {
           />
         </div>
       </div>
-      <div
+      {/*}<div
         className="border-white md:border-t-2 md:border-b-2 w-64 pt-2 md:pt-16 md:pb-16"
         style={{ width: 300 }}
       >
@@ -50,7 +50,7 @@ function App() {
             }
             alt="low-life-in-love"
           />
-        </div>
+        </div> -->
         <div className="text-center">
           <TypewriterComponent
             onInit={(typewriter) => {
@@ -61,7 +61,7 @@ function App() {
             }}
           />
         </div>
-      </div>
+          </div>*/}
       <nav style={{ width: "50vw" }}>
         <div className="sm:flex sm:items-center sm:flex-col rounded-md h-18 pt-2 sm:pt-12 sm:pb-6">
           <div className="grid grid-cols-2 sm:grid-cols-none sm:flex sm:flex-row text-sm sm:text-base w-full border-2 rounded-md">
