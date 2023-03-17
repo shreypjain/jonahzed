@@ -98,7 +98,7 @@ function App() {
             <div
               className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 border-l-2 hover:text-gray-900"
               onClick={() => {
-                window.open("https://www.instagram.com/jonahzd/", "_blank");
+                window.open("https://music.apple.com/ca/artist/jonah-zed/807598675", "_blank");
               }}
             >
               apple music
@@ -107,7 +107,7 @@ function App() {
               className="flex flex-row h-12 justify-center text-center items-center cursor-pointer width-36 w-full transition duration-500 ease-in-out hover:bg-gray-200 sm:border-l-2 hover:text-gray-900"
               onClick={() => {
                 window.open(
-                  "https://music.apple.com/ca/artist/jonah-zed/807598675",
+                  "https://www.instagram.com/jonahzd/",
                   "_blank"
                 );
               }}
