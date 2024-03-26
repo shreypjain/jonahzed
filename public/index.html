@@ -67,143 +67,151 @@
             node: document.getElementById('product-component-1711394406553'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
+  "product": {
+    "styles": {
       "product": {
-        "styles": {
-          "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-bottom": "50px"
-            },
-            "text-align": "left"
-          },
-          "title": {
-            "font-size": "26px"
-          },
-          "button": {
-            ":hover": {
-              "background-color": "#000000"
-            },
-            "background-color": "#000000",
-            ":focus": {
-              "background-color": "#000000"
-            }
-          },
-          "price": {
-            "font-size": "18px"
-          },
-          "compareAt": {
-            "font-size": "15.299999999999999px"
-          },
-          "unitPrice": {
-            "font-size": "15.299999999999999px"
-          }
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px",
+          "border-radius": "0.375rem"
         },
-        "layout": "horizontal",
-        "contents": {
-          "img": false,
-          "imgWithCarousel": true,
-          "description": true
+        "text-align": "left"
+      },
+      "title": {
+        "font-size": "36px",
+        "font-weight": "bold",
+        "font-family": 'ui-sans-serif, system-ui, -apple-system',
+        "color": "black"
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#4A4A4A"
         },
-        "width": "100%",
-        "text": {
-          "button": "Add to cart"
+        "background-color": "black",
+        "border-radius": "0.375rem",
+        ":focus": {
+          "background-color": "#4A4A4A"
         }
       },
-      "productSet": {
-        "styles": {
-          "products": {
-            "@media (min-width: 601px)": {
-              "margin-left": "-20px"
-            }
-          }
+      "img": {
+        "border-radius": "0.375rem"
+      },
+      "price": {
+        "font-size": "24px"
+      },
+      "compareAt": {
+        "font-size": "18px"
+      },
+      "unitPrice": {
+        "font-size": "18px"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
         }
       },
-      "modalProduct": {
-        "contents": {
-          "img": false,
-          "imgWithCarousel": true,
-          "button": false,
-          "buttonWithQuantity": true
+      "button": {
+        ":hover": {
+          "background-color": "#000000"
         },
-        "styles": {
-          "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0px",
-              "margin-bottom": "0px"
-            }
-          },
-          "button": {
-            ":hover": {
-              "background-color": "#000000"
-            },
-            "background-color": "#000000",
-            ":focus": {
-              "background-color": "#000000"
-            }
-          },
-          "title": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "bold",
-            "font-size": "26px",
-            "color": "#4c4c4c"
-          },
-          "price": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "18px",
-            "color": "#4c4c4c"
-          },
-          "compareAt": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "15.299999999999999px",
-            "color": "#4c4c4c"
-          },
-          "unitPrice": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "15.299999999999999px",
-            "color": "#4c4c4c"
-          }
-        },
-        "text": {
-          "button": "Add to cart"
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
         }
       },
-      "option": {},
-      "cart": {
-        "styles": {
-          "button": {
-            ":hover": {
-              "background-color": "#000000"
-            },
-            "background-color": "#000000",
-            ":focus": {
-              "background-color": "#000000"
-            }
-          }
-        },
-        "text": {
-          "total": "Subtotal",
-          "button": "Checkout"
-        }
+      "title": {
+        "font-family": "ui-sans-serif, system-ui, -apple-system",
+        "font-weight": "bold",
+        "font-size": "36px",
+        "color": "black"
       },
-      "toggle": {
-        "styles": {
-          "toggle": {
-            "background-color": "#000000",
-            ":hover": {
-              "background-color": "#000000"
-            },
-            ":focus": {
-              "background-color": "#000000"
-            }
-          }
+      "price": {
+        "font-family": "ui-sans-serif, system-ui, -apple-system",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "ui-sans-serif, system-ui, -apple-system",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "ui-sans-serif, system-ui, -apple-system",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
         }
       }
     },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#000000",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    }
+  }
+},
           });
         });
       }
